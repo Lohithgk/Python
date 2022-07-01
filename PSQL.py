@@ -1,3 +1,8 @@
+# Pandasql Module - Query Pandas DataFrames using SQL syntax 
+# pandasql uses SQLite syntax. Any pandas dataframes will be automatically detected by pandasql.
+# You can query them as you would any regular SQL table
+# pip install pandasql - https://pypi.org/project/pandasql/
+
 import imp
 import pandas as pd
 import pandasql as ps
