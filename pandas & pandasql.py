@@ -8,7 +8,7 @@ import pandas as pd
 import pandasql as ps
 
 # Read Excel files to Pandas dataframe objects using Pandas
-df = pd.read_excel(r"C:\Users\klohith\OneDrive - LKQ\Desktop\SampleSuperstore.xlsx")
+df = pd.read_excel(r"C:\Users\lohith\Desktop\SampleSuperstore.xlsx")
 
 # Query Pandas DataFrames using pandasql Module
 df1 =ps.sqldf("""
